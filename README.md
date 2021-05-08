@@ -1,24 +1,21 @@
 # A-Team vendor Addon Package For Android 11 Roms
 
+
 # Features
 ```
 Custom Slimmed Down Android 11 Gapps(FULL not GO version)
 X-Plore File Manager
 Magisk Auto Installed During Rom Installation
 Busybox Auto INstalled During Rom Installation
-
-
 ```
 
 
 # Info
 ```
-This Package and set of scripts aims to Add extra functionality to the roms you build,  It also has options to build roms with or without gapps. 
+This Package and set of scripts aims to Add extra functionality to the roms you build,  
+It also has options to build roms with or without gapps. 
 ```
-  
-```
-There are 2 switche that you will need to add to the device tree of your devices.  You can .
-```
+
 
 # Things You Need To Add + General Reminders
 
