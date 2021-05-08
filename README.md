@@ -19,25 +19,21 @@ This Package and set of scripts aims to Add extra functionality to the roms you 
 ```
 There are 2 switche that you will need to add to the device tree of your devices.  You can .
 ```
-```
+
 # Things You Need To Add + General Reminders
 
 1- put these lines in your device.mk file in your device tree or if your
-   device uses a multi-device common tree, you can put them in your common.mk file
+   device uses a multi-device common tree, you can put them in your common.mk file.
+   It sets the Vendor/A-Team path, calls the custom A-Team mk file for Adding our Addons
+   and the switch for if you want or don't want gapps in your rom
 ```
 A-TEAM_PATH := vendor/A-Team
-
-####################
-## A-Team Add-Ons ##
-##################################################################
-# A-Team Prebuilts                                               
+                                          
 $(call inherit-product, $(A-TEAM_PATH)/Prebuilt_Apps/A-Team.mk)                                                                                              
                                                                  
-# Gapps Selector                                                 
 ifeq ($(HAS_GAPPS), true)                                        
   $(call inherit-product, $(A-TEAM_PATH)/Gapps/gapps.mk)                 
 endif                                                            
-##################################################################
 ```
 
 
