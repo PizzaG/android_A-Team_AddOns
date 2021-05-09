@@ -18,7 +18,7 @@ It also has options to build roms with or without gapps.
 
 
 # Things You Need To Add + General Reminders
-
+```
 1- Put these lines in your device.mk file in your device tree or common.mk if using 
    common device tree.  Sets the A-Team path, calls the custom A-Team mk file for 
    Adding our Addons and the switch for if you want or don't want gapps in your rom
