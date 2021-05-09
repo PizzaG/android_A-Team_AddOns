@@ -23,15 +23,13 @@ It also has options to build roms with or without gapps.
    common device tree.  Sets the A-Team path, calls the custom A-Team mk file for 
    Adding our Addons and the switch for if you want or don't want gapps in your rom
 ```
-```
-A-TEAM_PATH := vendor/A-Team
+'''A-TEAM_PATH := vendor/A-Team
                                           
 $(call inherit-product, $(A-TEAM_PATH)/Prebuilt_Apps/A-Team.mk)                                                                                              
                                                                  
 ifeq ($(HAS_GAPPS), true)                                        
   $(call inherit-product, $(A-TEAM_PATH)/Gapps/gapps.mk)                 
-endif                                                            
-```
+endif'''                                                            
 
 
 # Copyright (C) 2019-Present A-Team Digital Solutions
