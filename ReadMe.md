@@ -5,6 +5,7 @@
 ```
 Android 11 Pico OpenGapps(FULL not GO version)
 NovaLauncher
+Gapps Included in the Built Rom and installable with vol button
 X-Plore File Manager
 Magisk Auto Installed During Rom Installation
 Busybox Auto INstalled During Rom Installation
