@@ -14,7 +14,9 @@ Busybox Auto INstalled During Rom Installation
 
 # Info
 ```
-This Package and set of scripts aims to Add extra functionality to the roms you build,  
+This Package and set of scripts aims to Add extra functionality to the roms you build 
+and is made to work in conjunction with A-Team Android Rom Build Menu, which can be 
+found here: https://github.com/PizzaG/Android_A-Team_RomBuildMenu
 ```
 
 
